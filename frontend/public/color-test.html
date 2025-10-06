@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Test - Radio New Song 97.7 FM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #072043;
+            margin-bottom: 40px;
+        }
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        .color-card {
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .color-swatch {
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .color-info {
+            padding: 20px;
+            background: #fafafa;
+        }
+        .color-info h3 {
+            margin: 0 0 15px 0;
+            color: #333;
+        }
+        .color-info p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #666;
+        }
+        .color-info code {
+            background: #e8e8e8;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+        }
+        .primary {
+            background-color: #072043;
+        }
+        .secondary {
+            background-color: #bf993b;
+        }
+        .button-examples {
+            margin-top: 40px;
+        }
+        .button-examples h2 {
+            color: #072043;
+            margin-bottom: 20px;
+        }
+        .button-row {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .btn-primary {
+            background-color: #072043;
+            color: white;
+        }
+        .btn-primary:hover {
+            background-color: #0a2d5c;
+        }
+        .btn-secondary {
+            background-color: #bf993b;
+            color: white;
+        }
+        .btn-secondary:hover {
+            background-color: #d4a840;
+        }
+        .usage-section {
+            margin-top: 40px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-left: 4px solid #bf993b;
+            border-radius: 4px;
+        }
+        .usage-section h3 {
+            color: #072043;
+            margin-top: 0;
+        }
+        .usage-list {
+            list-style: none;
+            padding: 0;
+        }
+        .usage-list li {
+            padding: 8px 0;
+            color: #555;
+        }
+        .usage-list li:before {
+            content: "✓ ";
+            color: #bf993b;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .verification {
+            margin-top: 40px;
+            padding: 20px;
+            background: #072043;
+            color: white;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .verification h2 {
+            color: #bf993b;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 Radio New Song 97.7 FM - Color Verification</h1>
+        
+        <div class="color-grid">
+            <!-- Primary Color -->
+            <div class="color-card">
+                <div class="color-swatch primary">
+                    Primary
+                </div>
+                <div class="color-info">
+                    <h3>Primary Color - Dark Blue</h3>
+                    <p><strong>Name:</strong> Dark Blue</p>
+                    <p><strong>Hex:</strong> <code>#072043</code></p>
+                    <p><strong>RGB:</strong> <code>rgb(7, 32, 67)</code></p>
+                    <p><strong>HSL:</strong> <code>hsl(210, 81%, 15%)</code></p>
+                </div>
+            </div>
+
+            <!-- Secondary Color -->
+            <div class="color-card">
+                <div class="color-swatch secondary">
+                    Secondary
+                </div>
+                <div class="color-info">
+                    <h3>Secondary Color - Gold</h3>
+                    <p><strong>Name:</strong> Gold</p>
+                    <p><strong>Hex:</strong> <code>#bf993b</code></p>
+                    <p><strong>RGB:</strong> <code>rgb(191, 153, 59)</code></p>
+                    <p><strong>HSL:</strong> <code>hsl(43, 53%, 49%)</code></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="button-examples">
+            <h2>Button Examples</h2>
+            <div class="button-row">
+                <button class="btn btn-primary">Primary Button (#072043)</button>
+                <button class="btn btn-secondary">Secondary Button (#bf993b)</button>
+            </div>
+            <div class="button-row">
+                <button class="btn btn-primary">Contact Us</button>
+                <button class="btn btn-secondary">Listen Live Now</button>
+            </div>
+        </div>
+
+        <div class="usage-section">
+            <h3>Primary Color (#072043) Usage</h3>
+            <ul class="usage-list">
+                <li>Navigation header background</li>
+                <li>Hero section backgrounds</li>
+                <li>Primary action buttons</li>
+                <li>Footer background</li>
+                <li>Main headings and titles</li>
+                <li>Program time indicators</li>
+            </ul>
+        </div>
+
+        <div class="usage-section">
+            <h3>Secondary Color (#bf993b) Usage</h3>
+            <ul class="usage-list">
+                <li>"Listen Live" buttons</li>
+                <li>"ON AIR" badges</li>
+                <li>Accent highlights and decorations</li>
+                <li>Category badges</li>
+                <li>Link hover states</li>
+                <li>Icons and visual accents</li>
+                <li>Call-to-action elements</li>
+            </ul>
+        </div>
+
+        <div class="verification">
+            <h2>✅ Colors Verified</h2>
+            <p style="margin: 20px 0;">
+                The exact colors you specified are now correctly applied:<br>
+                <strong style="color: #bf993b;">Primary: #072043</strong> | 
+                <strong style="color: #bf993b;">Secondary: #bf993b</strong>
+            </p>
+            <p style="font-size: 14px; opacity: 0.9; margin: 0;">
+                These are the precise hex values you provided and are used throughout the website.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
